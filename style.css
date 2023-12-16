@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #e4e4dc; /* Sage green achtergrond */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #bfcab4; /* Lichtere tint voor de kop */
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    color: #333;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    margin: 2vw auto;
+    max-width: 50%;
+}
+
+main p {
+    text-align: left;
+}
+
+main > section div {
+    display: flex;
+    width: 500%;
+}
+
+main > section div {
+    width: 50%;
+}
+
+main > section img {
+    width: 50%;
+    height: 15em;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #bfcab4;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative; /* Aangepast van fixed naar relative */
+    bottom: 0;
+    width: 100%;
+}
